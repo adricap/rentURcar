@@ -1,60 +1,86 @@
 .header {
-    margin-top: 20%;
-  }
+  margin-top: 20%;
+}
   
-  nav {
-    border-bottom: #e2e2e2;
-    border-style: inherit;
-    height: 100px;
-      
-  }
+nav {
+  border-bottom: #e2e2e2;
+  border-style: inherit;
+  height: 100px;     
+}
 
-  .jumbotron {
-        background-image: url("../img/mainBackground.jpg");
-        padding-top: 120px;
-        padding-bottom:0px;
-        background-size: cover;
-        width: 100%;
-        height:560px;
-        opacity: 1.3;
+#card-cms {
+  width: 800px;
+  height: 800px;
+}
 
-    }
-  .main-message {
-    line-height: 0.5;
-    text-align: right;
-  }
+#card-login {
+  width: 800px;
+  height: 700px;
+  padding: 0px;
+}
+
+#card-signup {
+  width: 800px;
+  height: 700px;
+  padding: 0px;
+}
+#jumbo-cms {
+  background-image: url("../img/120941-road-wallpaper-1920x1080-computer.jpg");
+  padding-top: 100px;
+  padding-left: 270px;
+  padding-bottom: 170px;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  opacity: 1.3;
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  background-image: url("../img/mainBackground.jpg");
+  padding-top: 120px;
+  padding-bottom:0px;
+  background-size: cover;
+  width: 100%;
+  height:560px;
+  opacity: 1.3;
+}
+
+.main-message {
+  line-height: 0.5;
+  text-align: right;
+}
     
-  .card-img {
-      width: 180px;
-      height: 180px;
-  }
-  button {
-    background-color: #a50b0b;
-    border-color:  #5a5a5a;
-    color:  white;
-  }
-  
-  h1 {
-    font-family: 'Bangers', cursive; 
-    font-size: 60px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    color:white;
-  }
+.card-img {
+  width: 180px;
+  height: 180px;
+}
 
-  h3 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-  }
+button {
+  background-color: #a50b0b;
+  border-color:  #5a5a5a;
+  color:  white;
+}
   
-  
-  .footer {
-    border-top: #e2e2e2;
-    border-style: inherit;
-    border-width: 15px;
-     background-color: white; padding-top: 50px; color: #636e74; font-weight: 400; font-size: 17px;  position: relative; bottom: 0; width: 100%;}
-  .tiny-footer { font-size: 14px; font-weight: 600; background-color: transparent; color: #888d90; line-height: 1.5; text-align: center; }
-  
+h1 {
+  font-family: 'Bangers', cursive; 
+  font-size: 60px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color:white;
+}
 
+h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
   
+.footer {
+  border-top: #e2e2e2;
+  border-style: inherit;
+  border-width: 15px;
+  background-color: white; padding-top: 50px; color: #636e74; font-weight: 400; font-size: 17px;  position: relative; bottom: 0; width: 100%;
+}
+
+.tiny-footer { font-size: 14px; font-weight: 600; background-color: transparent; color: #888d90; line-height: 1.5; text-align: center; }
