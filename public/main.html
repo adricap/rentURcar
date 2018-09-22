@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RentUrCar</title>
+    <!-- Reset -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Used for Autosuggest -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Mapbox -->
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+   <!--Google fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Bangers|Marvel:700" rel="stylesheet">
+    <!-- My style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body class="mainBody">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="main.html">
+            <img src="img/rentURcar_logo-02.png" width="220" class="d-inline-block align-top" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="post.html">List your Car</a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header text-center">
+            <h1>Skip the Rental Counter</h1>
+            <h3>Book unforgettable cars from local hosts around the Country</h3>
+        </div>
+        <br><br>
+        <form action="results.html">
+            <div class="form-row">
+                <div class="form-group col-2 text-center"></div>
+                <div class="form-group col-10 text-center">
+                    <input class="ui-widget form-control float-left mr-3" id="destination-input" type="text" placeholder="Where" style="width: 200px;">
+                    <input class="ui-widget form-control float-left mr-3" id="from-input" type="date" placeholder="From" style="width: 200px;">
+                    <input class="ui-widget form-control float-left mr-3" id="to-input" type="date" placeholder="To" style="width: 200px;">
+                    <button id="search-button" type="submit" class="btn float-left">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- Used for Autosuggest -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+
+</body>
+
+</html>
